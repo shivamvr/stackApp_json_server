@@ -1,28 +1,176 @@
 {
-  "question": {
-    "userAvatar": "user_avatar.png",
-    "username": "JohnDoe123",
-    "questionTitle": "How to sort an array in JavaScript?",
-    "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
-    "language": "JavaScript",
-    "upvotes": 10,
-    "answers": 3,
-    "postedDate": "2023-05-30"
-  },
+  "users": [
+    {
+      "id": "1",
+      "username": "Shivam",
+      "email": "shivam@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "username": "Shubham",
+      "email": "shubham@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3",
+      "username": "Rohan",
+      "email": "rohan@gmail.com",
+      "password": "1234"
+    },
+    {
+      "username": "mohan",
+      "email": "mohan@gmail.com",
+      "password": "1234",
+      "id": "4QZF-xO"
+    },
+    {
+      "username": "Kanhaiya",
+      "email": "kanhaiya@gmail.com",
+      "password": "1234",
+      "id": "N4D4DrD"
+    }
+  ],
+  "question": [
+    {
+      "id": "121",
+      "userAvatar": "user_avatar.png",
+      "username": "Shivam",
+      "title": "How to sort an array in JavaScript?",
+      "description": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "answers": 3,
+      "postedDate": "2023-05-30"
+    },
+    {
+      "title": "How to perform a POST request in JSON Server with Axios in React.js?",
+      "description": "I'm trying to make a POST request to a JSON Server using Axios in a React.js application...",
+      "username": "Shubham",
+      "language": "JavaScript",
+      "answers": 1,
+      "upvotes": 2,
+      "postedDate": "2023-12-02",
+      "id": "tWqd8XH"
+    },
+    {
+      "title": "How to handle state in React components?",
+      "description": "I'm having trouble managing state in my React components. What are the best practices...",
+      "language": "JavaScript",
+      "postedDate": "2023-12-02",
+      "username": "Shivam",
+      "answers": 0,
+      "upvotes": 0,
+      "id": "bb5CsSW"
+    },
+    {
+      "title": "Best practices for handling async operations in Redux?",
+      "description": "I need guidance on handling asynchronous operations, such as API calls, in a Redux application...",
+      "language": "JavaScript",
+      "postedDate": "2023-12-02",
+      "username": "Alice",
+      "answers": 2,
+      "upvotes": 5,
+      "id": "aC8Rt2X"
+    },
+    {
+      "title": "How to style React components using CSS-in-JS libraries?",
+      "description": "I'm exploring different ways to style my React components. What are some popular CSS-in-JS libraries...",
+      "language": "JavaScript",
+      "postedDate": "2023-12-01",
+      "username": "Bob",
+      "answers": 3,
+      "upvotes": 8,
+      "id": "kP3Lm9Q"
+    },
+    {
+      "title": "Error: 'Cannot read property 'map' of undefined' in React application",
+      "description": "I'm encountering this error in my React app. How can I troubleshoot and fix the 'Cannot read property 'map' of undefined' issue...",
+      "language": "JavaScript",
+      "postedDate": "2023-11-30",
+      "username": "Charlie",
+      "answers": 1,
+      "upvotes": 2,
+      "id": "sN7Gv1Z"
+    },
+    {
+      "title": "Choosing between React Router and Reach Router for navigation?",
+      "description": "I'm trying to decide between React Router and Reach Router for navigation in my React app. What are the key differences...",
+      "language": "JavaScript",
+      "postedDate": "2023-11-30",
+      "username": "David",
+      "answers": 4,
+      "upvotes": 10,
+      "id": "rT2Yn9P"
+    },
+    {
+      "title": "How to deploy a React app to GitHub Pages?",
+      "description": "I want to deploy my React app to GitHub Pages. What are the steps involved in this process...",
+      "language": "JavaScript",
+      "postedDate": "2023-11-29",
+      "username": "Eva",
+      "answers": 2,
+      "upvotes": 6,
+      "id": "mH6Qo5D"
+    },
+    {
+      "title": "Pros and cons of using TypeScript with React?",
+      "description": "I'm considering using TypeScript in my React project. What are the advantages and disadvantages...",
+      "language": "TypeScript",
+      "postedDate": "2023-11-29",
+      "username": "Frank",
+      "answers": 5,
+      "upvotes": 12,
+      "id": "xZ9Op4F"
+    },
+    {
+      "title": "How to implement dark mode in a React app?",
+      "description": "I want to add a dark mode feature to my React app. What are the best practices for implementing dark mode...",
+      "language": "JavaScript",
+      "postedDate": "2023-11-28",
+      "username": "Grace",
+      "answers": 3,
+      "upvotes": 7,
+      "id": "vJ1Az8B"
+    },
+    {
+      "title": "Error: 'Unhandled Rejection (TypeError): Cannot read property 'params' of undefined'",
+      "description": "I'm getting this error in my React app when trying to access route parameters. How can I fix the 'Unhandled Rejection (TypeError): Cannot read property 'params' of undefined' issue...",
+      "language": "JavaScript",
+      "postedDate": "2023-11-28",
+      "username": "Henry",
+      "answers": 0,
+      "upvotes": 1,
+      "id": "uX5Qt6M"
+    },
+    {
+      "title": "How to integrate Redux with React Hooks?",
+      "description": "I'm looking for a guide on integrating Redux with React Hooks. What are the best practices...",
+      "language": "JavaScript",
+      "postedDate": "2023-11-27",
+      "username": "Ivy",
+      "answers": 4,
+      "upvotes": 9,
+      "id": "qW3Ds5Y"
+    }
+  ],
   "answers": [
     {
+      "id": "233343",
       "userAvatar": "user_avatar2.png",
-      "username": "JaneSmith456",
+      "username": "Shubham",
       "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
       "postedDate": "2023-05-31"
     },
     {
+      "id": "13232",
       "userAvatar": "user_avatar3.png",
-      "username": "SamJohnson789",
+      "username": "Rohan",
       "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
       "postedDate": "2023-06-01"
     },
     {
+      "id": "4343",
       "userAvatar": "user_avatar4.png",
       "username": "EmilyBrownXYZ",
       "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
